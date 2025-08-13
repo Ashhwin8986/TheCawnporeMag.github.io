@@ -1,0 +1,27 @@
+{
+  "name": "thecawnporemag.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Welcome to the official open-source repository of The Cawnpore Magazine — a student-led, non-profit literary and arts magazine dedicated to celebrating creativity, girlhood, and youth culture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize:images": "node scripts/optimize-images.js",
+    "update:html": "node scripts/update-html-images.js",
+    "optimize:all": "npm run optimize:images && npm run update:html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashhwin8986/TheCawnporeMag.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashhwin8986/TheCawnporeMag.github.io/issues"
+  },
+  "homepage": "https://github.com/Ashhwin8986/TheCawnporeMag.github.io#readme",
+  "dependencies": {
+    "sharp": "^0.34.3"
+  }
+}

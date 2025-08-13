@@ -1,10 +1,14 @@
 {
   "name": "project-backend",
   "version": "1.0.0",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "optimize:images": "npm --prefix scripts run optimize:images",
+    "update:html": "npm --prefix scripts run update:html",
+    "optimize:all": "npm run optimize:images && npm run update:html"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
